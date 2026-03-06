@@ -1,0 +1,65 @@
+/* Ocultar la caja de búsqueda */
+window {
+    margin: 0px;
+    border: 2px solid #7aa2f7;
+    /* Azul elegante */
+    background-color: rgba(26, 27, 38, 0.95);
+    /* Fondo oscuro con transparencia */
+    border-radius: 15px;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+#inner-box {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+#scroll {
+    margin: 5px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #c0caf5;
+}
+
+#entry:selected {
+    background-color: #7aa2f7;
+    border-radius: 10px;
+    outline: none;
+}
+
+#text:selected {
+    color: #1a1b26;
+    /* Texto oscuro cuando está seleccionado */
+    font-weight: bold;
+}
+
+#img {
+    margin-right: 10px;
+}
+
+#input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: transparent;
+    opacity: 0;
+    height: 0;
+}
+
+/* Ajustar el contenedor para que no deje espacio vacío arriba */
+#outer-box {
+    margin: 0;
+    padding: 10px;
+}

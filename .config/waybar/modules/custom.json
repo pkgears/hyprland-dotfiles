@@ -1,0 +1,14 @@
+{
+  "custom/power": {
+    "format": "⏻ ",
+    "tooltip": false,
+    "on-click": "~/.local/bin/powermenu.sh",
+    "on-click-right": "hyprlock"
+  },
+  "custom/clipboard": {
+    "format": "󰅌",
+    "on-click": "cliphist list | wofi --dmenu | cliphist decode | wl-copy",
+    "on-click-right": "cliphist wipe",
+    "tooltip-format": "Click: Ver historial\nDerecho: Limpiar"
+  }
+}

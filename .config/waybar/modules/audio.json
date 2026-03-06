@@ -1,0 +1,42 @@
+{
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-bluetooth": "{icon} {volume}%",
+    "format-muted": "󰝟  Muted",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "on-click": "pavucontrol",
+    "on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "scroll-step": 5
+  },
+  "mpris": {
+    "format": "{player_icon} {artist} - {title}",
+    "format-paused": "{status_icon} <i>{artist} - {title}</i>",
+    "player-icons": {
+      "default": "<span>󰎈</span>",
+      "spotify": "<span></span>",
+      "firefox": "<span></span>",
+      "chrome": "<span></span>",
+      "brave": "<span></span>"
+    },
+    "status-icons": {
+      "paused": "<span>󰏤</span>"
+    },
+    "max-length": 40,
+    "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl next",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous"
+  }
+}

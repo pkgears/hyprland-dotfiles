@@ -1,0 +1,31 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 34,
+    "spacing": 4,
+    "include": [
+        "~/.config/waybar/modules/audio.json",
+        "~/.config/waybar/modules/system.json",
+        "~/.config/waybar/modules/custom.json"
+    ],
+    "modules-left": [
+        "cpu",
+        "memory",
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "custom/clipboard",
+        "hyprland/language",
+        "pulseaudio",
+        "mpris",
+        "custom/power"
+    ],
+    "tray": {
+        "icon-size": 22,
+        "spacing": 4
+    }
+}
