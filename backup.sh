@@ -6,15 +6,15 @@ BASE_DIR="."
 
 echo "󰄭 Starting Dotfiles Backup..."
 
-mkdir -p "$BASE_DIR/.config"
-mkdir -p "$BASE_DIR/.local/bin"
+mkdir -p "./.config"
+mkdir -p "./.local/bin"
 
-cp -rf "$CONF_DIR/hypr" "$BASE_DIR/.config/"
-cp -rf "$CONF_DIR/waybar" "$BASE_DIR/.config/"
-cp -rf "$CONF_DIR/kitty" "$BASE_DIR/.config/"
-cp -rf "$CONF_DIR/wofi" "$BASE_DIR/.config/"
+cp -rf "$CONF_DIR/hypr" "./.config/"
+cp -rf "$CONF_DIR/waybar" "./.config/"
+cp -rf "$CONF_DIR/kitty" "./.config/"
+cp -rf "$CONF_DIR/wofi" "./.config/"
 
-cp -rf $LOCAL_DIR/bin/hyprland-per-window-layout $BASE_DIR/.local/bin/
+cp -rf $LOCAL_DIR/bin/hyprland-per-window-layout ./.local/bin/
 
 git add .
 
