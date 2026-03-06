@@ -13,6 +13,7 @@ cp -rf "$CONF_DIR/hypr" "./.config/"
 cp -rf "$CONF_DIR/waybar" "./.config/"
 cp -rf "$CONF_DIR/kitty" "./.config/"
 cp -rf "$CONF_DIR/wofi" "./.config/"
+cp -rf "$CONF_DIR/eew" "./.config/"
 
 cp -rf $LOCAL_DIR/bin/hyprland-per-window-layout ./.local/bin/
 
